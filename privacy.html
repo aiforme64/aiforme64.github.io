@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Louise Local n8n</title>
+  <style>
+    body {
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 24px;
+      font: 18px/1.7 system-ui, sans-serif;
+      color: #243247;
+      background: #f7f9fc;
+    }
+    h1, h2 { line-height: 1.25; color: #12213a; }
+    a { color: #1559ad; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">Home</a></p>
+    <h1>Privacy Policy</h1>
+    <p><strong>Application:</strong> Louise Local n8n</p>
+    <p><strong>Effective date:</strong> September 19, 2026</p>
+
+    <h2>Purpose and operator</h2>
+    <p>
+      Louise operates this application for personal automation and
+      learning using a self-hosted n8n installation. It currently
+      connects the operator's Google account to Google Sheets
+      workflows and is not a public sign-up service.
+    </p>
+
+    <h2>Google data and permissions</h2>
+    <p>
+      With authorization, the application can read, edit, create,
+      and delete Google Sheets spreadsheets; access specific Google
+      Drive files used with the application; and view and manage
+      Google Drive file metadata.
+      Spreadsheet permissions can cover all spreadsheets accessible
+      to the connected account, not only a selected test spreadsheet.
+    </p>
+    <p>
+      Data processed can include spreadsheet cell contents,
+      spreadsheet identifiers, file names and metadata, and the
+      OAuth tokens needed to maintain the connection.
+      The application does not receive the Google account password.
+    </p>
+
+    <h2>How data is used</h2>
+    <p>
+      Data is used to perform workflows configured by the operator,
+      such as selecting spreadsheets, recording inquiries, and
+      reading or updating rows. Execution records may retain inputs
+      and outputs for troubleshooting.
+      Google user data is not sold, used for advertising, or used
+      to train generalized artificial intelligence or machine
+      learning models.
+    </p>
+
+    <h2>Storage and security</h2>
+    <p>
+      n8n runs on the operator's computer. OAuth credentials are
+      encrypted by n8n at rest. Workflow definitions and execution
+      records are stored locally; execution data is not necessarily
+      encrypted by n8n. Google Sheets stores spreadsheet data
+      within Google's services.
+    </p>
+    <p>
+      Local backups contain application data and credentials.
+      Copies uploaded to Google Drive are encrypted before upload.
+      Access controls, account authentication, and software updates
+      help protect the installation, but no system can guarantee
+      absolute security.
+    </p>
+
+    <h2>Service providers and sharing</h2>
+    <p>
+      Google processes requests required for the authorized Sheets
+      and Drive operations and stores uploaded backup files.
+      The current Google integration does not intentionally send
+      Google API responses through the ngrok webhook tunnel.
+      Requests sent to public webhook endpoints pass through ngrok.
+    </p>
+    <p>
+      GitHub Pages hosts this informational website. Google OAuth
+      credentials and spreadsheet contents are not published to
+      this website. GitHub may process visitor connection
+      information under its own privacy statement.
+    </p>
+    <p>
+      The current personal Google Sheets workflows do not
+      intentionally transfer Google user data to other recipients.
+      This policy will be updated before introducing materially
+      different data uses or additional recipients.
+    </p>
+
+    <h2>Retention and deletion</h2>
+    <p>
+      Execution history is configured for automatic pruning after
+      approximately seven days, with a maximum retained execution
+      count of 1,000. Pruning timing and execution state may affect
+      when records are removed.
+      Workflows and credentials remain until removed by the
+      operator. Spreadsheet rows remain until deleted in Google
+      Sheets.
+    </p>
+    <p>
+      Backups may retain earlier copies after live data is deleted.
+      Backup copies are retained until the operator deletes them;
+      automatic backup expiration is not currently configured.
+      Deletion therefore requires considering both live storage
+      and retained backups.
+    </p>
+
+    <h2>Your control and contact</h2>
+    <p>
+      Google authorization can be revoked through
+      <a href="https://myaccount.google.com/connections">
+        Google Account connections</a>.
+      Revocation prevents further authorized access but does not
+      automatically erase previously stored data or backups.
+    </p>
+    <p>
+      For privacy questions or deletion requests, contact the
+      operator through the user-support email shown on the
+      application's Google consent screen. Do not post credentials
+      or private data in public GitHub issues.
+    </p>
+
+    <h2>Google API user data</h2>
+    <p>
+      Louise Local n8n's use and transfer of information received
+      from Google APIs will adhere to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">
+        Google API Services User Data Policy</a>,
+      including its Limited Use requirements.
+    </p>
+  </main>
+</body>
+</html>
